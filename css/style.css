@@ -1,3 +1,60 @@
-h1 {
-  color: salmon;
+body {
+  background-color: rgb(240, 240, 240);
+  font-family: Helvetica, Arial, sans-serif;
+  color: gray;
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 1px;
+}
+
+.para {
+  font-size: 15px;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 7px;
+}
+
+.container1 {
+  height: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.city {
+  display: inline-block;
+  position: relative;
+}
+
+.image {
+  height: 200px;
+  width: 200px;
+  margin: 0 5px;
+}
+
+a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  margin: auto;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.btnContainer {
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+
+button{
+  border: solid gray;
+  padding: 14px 75px;
+  background-color: white;
 }
